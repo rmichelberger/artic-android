@@ -48,9 +48,6 @@ class MockRepository(private val hasDelay: Boolean = false) : Repository {
         return ArtDetailData(
             id = 65479,
             title = "Cottages with a Woman Working in the Middle Ground",
-            dateDisplay = "1890",
-            placeOfOrigin = "Netherlands",
-            mediumDisplay = "Charcoal, reed pen and black ink, blue pastel, and white chalk on blue-gray laid paper",
             artistDisplay = "Vincent van Gogh\nDutch, 1853-1890",
             imageId = "c60f377f-37e3-a5e5-6a49-2099fb475355",
             publicationHistory = "J. B. De la Faille, L'Oeuvre de Vincent Van Gogh (Brussels and Paris, 1928), p. 178, no. 1642, pl. CCIX.\n\nJ. B. de la Faille, The Works of Vincent van Gogh: His Paintings and Drawings (Amsterdam, 1970), p. 560, no. 1642 (ill.).\n\nJan Hulsker, The Complete Van Gogh: Paintings, Drawings, Sketches (New York, 1980), no. 1994 (ill.).\n\nJ. E. Hijbroek and E.L. Wouthuysen, Kunst, Kennis en Commercis: De Kunsthandelaar J.H. de Bois, 1878-1946 (Amsterdam, 1993), p. 206.\n\nBelinda Thomson, Van Gogh (Chicago, 2001), pp. 81,  102, and 107, pl. 15.",

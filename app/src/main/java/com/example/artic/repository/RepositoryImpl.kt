@@ -7,6 +7,7 @@ import com.example.artic.repository.api.ApiService
 import javax.inject.Inject
 
 class RepositoryImpl @Inject constructor(private val apiService: ApiService) : Repository {
+
     @Throws(NetworkErrorException::class)
     override suspend fun getArtList(): List<ArtData> =
         apiService.getArtList().body()?.data?.filter { it.publicationHistory != null }

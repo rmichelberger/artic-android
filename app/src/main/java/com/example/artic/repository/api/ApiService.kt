@@ -17,6 +17,6 @@ interface ApiService {
     @GET("/api/v1/artworks/{id}/")
     suspend fun getArtDetail(
         @Path("id") id: Int,
-        @Query("fields") fields: String = "id,title,image_id,date_display,place_of_origin,medium_display,publication_history,artist_display,style_title",
+        @Query("fields") fields: String = "id,title,image_id,publication_history,artist_display,style_title",
     ): Response<ApiResponse<ArtDetailData>>
 }
